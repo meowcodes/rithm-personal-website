@@ -1,6 +1,46 @@
-body {
+/* 
+  colors
+  crimson/orangered/lightsalmon
+  gold
+  seagreen
+  royalblue 
+*/
+
+.index {
   font-family: 'Yeon Sung', cursive;
+  background-color: seagreen;
+  color: gold;
 }
+.index nav {
+  background-color: mediumseagreen;
+}
+.about {
+  font-family: 'Philosopher', cursive;
+  background-color: midnightblue;
+  color: gold;
+}
+.about nav {
+  background-color: royalblue;
+}
+.contact {
+  font-family: 'Bree Serif', serif;
+  background-color: gold;
+  color: orangered;
+}
+.contact nav {
+  background-color: lemonchiffon;
+}
+.projects {
+  font-family: 'Andada', serif;
+  background-color:orangered;
+  color: gold;
+}
+.projects nav {
+  background-color: coral;
+}
+
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -14,25 +54,23 @@ a {
   display: flex;
   justify-content: center;
 }
+
+
 nav {
   position: absolute;
   width: 100vw;
   height: 2.5em;
   flex-direction: row;
   justify-content: space-around;
-  background-color: aliceblue;
 }
+nav span {
+  margin: 0 0.5em;
+  font-size: 1.25em;
+}
+
 main {
-  background-color: pink;
   min-height: 100vh;
 }
-.logo {
-
-}
-.menu {
-
-}
-
-.elevator-pitch {
+.content {
   text-align: center;
 }
