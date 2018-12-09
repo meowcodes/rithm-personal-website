@@ -1,0 +1,38 @@
+body {
+  font-family: 'Yeon Sung', cursive;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.centerv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.centerh {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  position: absolute;
+  width: 100vw;
+  height: 2.5em;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: aliceblue;
+}
+main {
+  background-color: pink;
+  min-height: 100vh;
+}
+.logo {
+
+}
+.menu {
+
+}
+
+.elevator-pitch {
+  text-align: center;
+}
