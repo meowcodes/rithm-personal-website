@@ -7,15 +7,23 @@
   midnightblue/royalblue
 */
 
-.index {
-  font-family: 'Yeon Sung', cursive;
-  background-color: seagreen;
-  color: gold;
+.index, .about, .contact {
+  font-family: 'Bree Serif', serif;
+  background: #C779D0;
+  background-image: linear-gradient(to right top, #4bc0c8, #29badb, #32b1eb, #60a4f2, #9094ed, #bf89e2, #e47dcd, #ff75af, #ff808b, #ff9d63, #ffc33c, #f2eb2f);
+  color: whitesmoke;
 }
-.index nav {
-  background-color: mediumseagreen;
+nav {
+  background-color: rgba(255,255,255,0.25);
 }
-.about {
+.mc-btn {
+  border: white solid 3px;
+  padding: 0.5em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal!important;
+}
+/* .about {
   font-family: 'Philosopher', cursive;
   background-color: midnightblue;
   color: gold;
@@ -38,7 +46,7 @@
 }
 .projects nav {
   background-color: coral;
-}
+} */
 
 
 
@@ -49,6 +57,11 @@ a {
 .centerv {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.centervc {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .centerh {
@@ -74,4 +87,8 @@ main {
 }
 .content {
   text-align: center;
+}
+
+.about .content {
+  max-width: 720px;
 }
